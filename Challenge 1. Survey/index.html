@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>KINTSUGI Account Registration</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1 id="title">KINTSUGI Account Registration</h1>
+  <p id="description">Enter your details below to register for a free KINTSUGI account.</p>
+  <fieldset id="personal-details">
+    <form id="survey-form">
+      <label id="name-label">Name</label>
+      <input id="name" type="text" placeholder="John Doe" required>
+      <br>
+      <label id="email-label">Email</label>
+      <input id="email" type="email" placeholder="joe@gmail.com" required>
+      <br>
+      <label id="number-label">Age (must be 13 or older)</label>
+      <input id="number" type="number" min="13" max="120" placeholder="30" required>
+      <br>
+      <label id="dropdown-label">How did you find out about KINTSUGI?</label>
+      <select id="dropdown">
+        <option>Website</option>
+        <option>Youtube</option>
+        <option>In-store</option>
+        <option>Other</option>
+      </select>
+      <br>
+      <label>Would you like to sign up for the newspaper?</label>
+      <input type="radio" name="newspaper" value="yes">
+      <label>Yes</label>
+      <input type="radio" name="newspaper" value="no">
+      <label>No</label>
+      <br>
+      <label>Which of the following skills are you interested in?</label>
+      <input type="checkbox" value="art-design">
+      <label>Art Design</label>
+      <input type="checkbox" value="gold-forging">
+      <label>Gold Forging</label>
+      <input type="checkbox" value="research">
+      <label>Research</label>
+      <br>
+      <label>What does KINTSUGI mean to you?</label>
+      <textarea></textarea>
+      <br>
+      <button id="submit" type="submit">Submit</button>
+    </form>
+  </fieldset>
+</body>
+<footer>
+</footer>
